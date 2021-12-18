@@ -1,0 +1,130 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/final2.css">
+    <script src="../js/final.js" async > </script>
+</head>
+<body>
+    <style>
+      @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 200px) {
+      .prev, .next,.text {font-size: 11px}
+      }
+    </style>
+
+
+<section class="slid">
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="../images/bonnet pain.jpg" style="width:100%">
+        <div class="text"> bonnet pain </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/dra chnwa akatski.jpg" style="width:100%">
+        <div class="text"> akatski </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="../images/capuche itachi.jpg" style="width:100%">
+        <div class="text"> Capuche </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+</section>
+<section class="articles">
+  <div class="shop-items">
+      <div class="ad1">
+          <h3 class="shop-item-title"> t-shirt </h3>
+          <img src="../Images/merch 1.jpg" class="shop-item-image">
+          <div class="shop-item-details">
+              <span class="shop-item-price"> 28DT </span>
+              <button class="add" type="button"> ADD TO CART </button>
+          </div>
+      </div>
+      <div class="ad2">
+          <h3 class="shop-item-title"> t-shirt 1 </h3>
+          <img src="../Images/merch 2.jpg" class="shop-item-image">
+          <div class="shop-item-details">
+              <span class="shop-item-price"> 31DT </span>
+              <button class="add" type="button">ADD TO CART</button>
+          </div>
+      </div>
+      <div class="ad3">
+          <h3 class="shop-item-title"> konai  </h3>
+          <img src="../Images/merch 3.jpg" class="shop-item-image">
+          <div class="shop-item-details">
+              <span class="shop-item-price"> 30DT </span>
+              <button class="add" type="button"> ADD TO CART </button>
+          </div>
+      </div>
+      <div class="ad4">
+        <h3 class="shop-item-title"> capuche  </h3>
+        <img src="../Images/merch 4.webp" class="shop-item-image">
+        <div class="shop-item-details">
+            <span class="shop-item-price">50DT</span>
+            <button class="add" type="button">ADD TO CART</button>
+        </div>
+    </div>
+    <div class="ad5">
+      <h3 class="shop-item-title"> kess  </h3>
+      <img src="../Images/merch 5.jpg" class="shop-item-image">
+      <div class="shop-item-details">
+          <span class="shop-item-price">20DT</span>
+          <button class="add" type="button">ADD TO CART</button>
+      </div>
+    </div>
+    <div class="ad6">
+      <h3 class="shop-item-title"> cache </h3>
+      <img src="../Images/merch 6.jpg" class="shop-item-image">
+      <div class="shop-item-details">
+          <span class="shop-item-price">15DT</span>
+          <button class="add" type="button">ADD TO CART</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="">
+  <h2 class="section-header" style="color: rgb(223, 79, 12);"> CART </h2>
+  <div class="cart-row">
+      <span class="cart-item cart-header cart-column"> ITEM </span>
+      <span class="cart-price cart-header cart-column"> PRICE </span>
+      <span class="cart-quantity cart-header cart-column"> QUANTITY </span>
+  </div>
+  <div class="cart-items">
+  </div>
+  <div class="cart-total">
+      <strong class="cart-total-title">Total</strong>
+      <span class="cart-total-price">$0</span>
+  </div>            
+</section>
+
+
+
+</body>
+</html> 
